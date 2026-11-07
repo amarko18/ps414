@@ -4,7 +4,7 @@ var relapse=["12.02", "12.20", "12.40", "12.60", "12.70", "13.00", "13.20", "13.
 var select=document.getElementById('preview-firmware'), button=document.getElementById('launch');
 function show(v){var ok=supported.indexOf(v)!==-1;
 document.getElementById('route-title').textContent='تعديل PS5 · '+(v||'إصدار غير معروف');
-document.getElementById('route-status').textContent=ok?'ملفات داخل موقع عمر سنتر':'غير متاح حالياً';
+document.getElementById('route-status').textContent=ok?'ملفات داخل موقع Abo Adam':'غير متاح حالياً';
 document.getElementById('route-detail').textContent=ok?(relapse.indexOf(v)!==-1?'Relapse — ملفات محلية. بعد نجاح التشغيل اتبع تعليمات R2 الظاهرة لتحميل الأدوات.':'تشغيل ملفات PS5 المحلية. اتبع التعليمات التي تظهر بعد بدء التشغيل.'):'هذا الإصدار غير مدعوم بالملفات الحالية. لا يبدأ التشغيل.';
 button.disabled=!(firmware&&ok);
 document.getElementById('launch-label').textContent=firmware?(ok?'ابدأ تعديل PS5':'غير متاح لهذا الإصدار'):'افتح من متصفح PS5 للتشغيل';}
