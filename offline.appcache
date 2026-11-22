@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Abo-Adam PS4 unified offline 2026-11-04-v1
+# Abo-Adam PS4 unified offline 2026-11-16-v1
 
 CACHE:
 /
@@ -84,6 +84,7 @@ CACHE:
 /host/ps4-14/meme.png
 /host/ps4-14/patchset-1352.bin
 /host/ps4-14/patchset-1400.bin
+/host/ps4-14/patchset-1402.bin
 /host/ps4-14/ps4_offsets.js
 /host/ps4-14/style.css
 /host/raw13g/UPSTREAM.json
@@ -120,6 +121,18 @@ CACHE:
 /host/slopkit/ps4_offsets.js
 /host/slopkit/rpc_worker.js
 /index.html
+
+/host/ps4-14/patchset-1200.bin
+/host/ps4-14/patchset-1202.bin
+/host/ps4-14/patchset-1250.bin
+/host/ps4-14/patchset-1252.bin
+/host/ps4-14/patchset-1300.bin
+/host/ps4-14/patchset-1302.bin
+/host/ps4-14/patchset-1304.bin
+/host/ps4-14/patchset-1350.bin
+
+FALLBACK:
+/host/ps4-14/jb.html /host/ps4-14/jb.html
 
 NETWORK:
 *
